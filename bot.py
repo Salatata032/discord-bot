@@ -84,7 +84,7 @@ async def on_member_update(before, after):
     )
 
     await new_channel.send(
-        f'🩸 Добре дошъл, {member.mention}! Това е твоят личен канал в **{CATEGORY_NAME}**.'
+        f'🩸 Оп чакаме парички от теб, {member.mention}! Това е твоят личен канал в който имаш 1 седмица да дадеш паричките $$$ **{CATEGORY_NAME}**.'
     )
 
     print(f'✅ Създаден канал: #{channel_name} за: {member.name}')
