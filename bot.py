@@ -1,11 +1,12 @@
 import discord
 from discord.ext import commands
 import asyncio
+import os
 
 # ========================
 # КОНФИГУРАЦИЯ
 # ========================
-TOKEN = 'token'
+TOKEN = os.environ.get('TOKEN')
 MEMBER_ROLE_ID = 1497214361490423858   # Роля - на тези се прави канал
 ADMIN_ROLE_ID  = 1333904909858242580   # Роля - тези могат да пишат !done
 CATEGORY_NAME  = 'Кръвен-Договор'
